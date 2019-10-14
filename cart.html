@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">            
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<body style="margin: 0; padding:0; box-sizing:border-box; font-family: 'Lato', sans-serif;">
+  <div id = "page-container">    
+    <nav id="navbar">
+      <div class="nav-left">
+       <a id="logo" href="index.html"><span class="logo-1">SHOP</span><span class="logo-2">LANE</span></a>
+       <a class="links" href="index.html#card-main">CLOTHING</a>
+       <a  class="links"href="index.html#acc-main">ACCESSORIES</a>
+      </div>
+      <div class="nav-right">
+  <a href="cart.html"><i id="cart" class="fas fa-cart-plus font-awesome"><span id=counter>0</span></i></a>    
+  <a class="small" href="index.html#card-main"><i class='fas fa-tshirt font-awesome'></i></a>
+  <a  class="small" href="index.html#acc-main"><i class="fas fa-headphones font-awesome"></i></a>
+            <img id="profile-img" src="https://pbs.twimg.com/profile_images/546954870566035456/vLYeo6XN.jpeg" alt="profile"/>
+    </div>    
+    </nav>
+    <main>
+		
+		<div class="container" id="checkout">
+			<h1>Checkout</h1>
+			<p id="total-items">Total items: </p>
+
+			<div id="kindablock">
+				<div id="left-check">
+				</div>
+				<div id="right-check">
+					<div id="total">
+						<h2>Total amount</h2>
+						<p class="desc">Amount Rs:  <span></span></p>
+						<a href="confirm.html" onclick="localStorage.clear();"><button class="btn-cart">Place Order</button></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</main>
+    <footer>
+        <h3>&copy AKASH</h3> 
+     </footer>
+    </div>   
+     <script type="text/javascript" src="js/cart.js"></script>
+    </body>
+</html>   
